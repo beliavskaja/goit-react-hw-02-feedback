@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import { FeedbackOptioButtons, FeedbackButton } from "./FeedbackOptions.styled";
+import { FeedbackOptionButtons, FeedbackButton } from "./FeedbackOptions.styled";
 
 const FeedbackOptions = ({ options, onClick }) => {
     return (
-            <FeedbackOptioButtons>
+            <FeedbackOptionButtons>
                 {options.map((option) => (
                     <li key={option}>
                         <FeedbackButton
@@ -16,7 +16,7 @@ const FeedbackOptions = ({ options, onClick }) => {
                         </FeedbackButton>
                     </li>
                 ))}
-            </FeedbackOptioButtons>
+            </FeedbackOptionButtons>
     )
 };
 

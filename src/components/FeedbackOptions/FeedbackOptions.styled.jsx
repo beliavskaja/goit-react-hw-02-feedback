@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FeedbackOptioButtons = styled.ul`
+export const FeedbackOptionButtons = styled.ul`
     list-style: none;
     display: flex;
     flex-direction: row;
